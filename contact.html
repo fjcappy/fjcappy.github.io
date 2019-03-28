@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Honest Car Seller">
+  <meta name="keywords" content="cars, treasured, transportation">
+  <meta name="author" content="Alder French">
+  <title>Treasured Transportation | Home</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./mycss/index.css">
+</head>
+
+<body class="has-navbar-fixed-top">
+
+  <!-- Headings -->
+  <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a href="./index.html" class="navbar-item is-size-3">
+        <img src="./img/logo.png" alt="" width="112" height="auto" />
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+
+      <div class="navbar-start">
+
+      </div>
+
+      <div class="navbar-"></div>
+
+      <div class="navbar-end">
+        <a href="./index.html" class="navbar-item">
+          Home
+        </a>
+        <a href="./sellnow.html" class="navbar-item">
+          Sell Now
+        </a>
+        <a href="./inventory.html" class="navbar-item">
+          Inventory
+        </a>
+        <a href="./about.html" class="navbar-item">
+          About
+        </a>
+        <a href="./contact.html" class="navbar-item">
+          Contact
+        </a>
+
+        <a href="tel:6029089267" class="navbar-item">
+          <button class="button is-primary">(602) 908-9267</button>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Body -->
+
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-head has-background-primary" style="padding:20px">
+      <div class="container">
+        <h1 class="title has-text-centered has-text-white">
+          Contact
+        </h1>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <p class="subtitle">
+          Phone: <a href="tel:tel:6029089267">(602) 908-9267</a>
+        </p>
+        <br><br><br><br>
+        <p class="subtitle">
+          Email: <a href="mailto:fjcappy@hotmail.com">fjcappy@hotmail.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Final Section, "Featured listings to go under the top car carousel, then move everything else down? Talk to Frank. " -->
+
+
+
+
+
+  <footer class="footer has-background-dark">
+    <div class="content has-text-centered">
+      <p>
+        <a href="./index.html" class="">
+          <img src="./img/logo.png" alt="" width="112" height="auto" />
+        </a>
+        <br><br>
+        <strong class="has-text-white">Treasured Transportation, &copy; 2019</strong>
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+
+  <script type="text/javascript" src="./myjs/index.js"></script>
+  <script type="text/javascript" src="./lib/main.js"></script>
+
+</body>
+
+</html>
