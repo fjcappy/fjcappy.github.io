@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./mycss/index.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
 </head>
 
 <body class="has-navbar-fixed-top">
 
   <!-- Headings -->
-  <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top is-dark" style="/*opacity:0.9 do on all tommorrow */" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a href="./index.html" class="navbar-item is-size-3">
         <img src="./img/logo.png" alt="" width="112" height="auto" />
@@ -64,66 +64,42 @@
 
   <!-- Home Body -->
 
-  <!-- SLICK CAROUSEL -->
-  <div class="basic withOptions single-item">
-    <div>
-      <div class="numbertext">1 / 3</div>
-      <img src="./img/sexycarshort.jpg" style="width:100%;">
-      <div class="text">Caption Text</div>
-    </div>
-    <div>your content</div>
-    <div>your content</div>
-  </div>
-
-  <!-- Start Hero Custom Carousel -->
-  <section class="hero is-fullheight-with-navbar">
-    <div class="hero-head has-background-primary" style="padding:30px">
+  <!-- Top of page Hero -->
+  <section class="hero">
+    <div class="hero-body has-background-primary" style="padding:30px">
       <!-- Make this an a tag that connects to sell now -->
-      <h1 class="title has-text-centered has-text-white">"Let Us Find a New Home to Treasure your Tranportation"</h1>
-    </div>
-
-    <div class="hero-body has-text-centered">
-      <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="./img/sexycarshort.jpg" style="width:100%;">
-          <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="./img/longskinny.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="./img/sexycarthree.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-
-      </div>
-      <br>
-
-      <div>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
+      <h1 class="title has-text-centered has-text-white">Let Us Find a New Home to Treasure your Tranportation</h1>
     </div>
 
   </section>
-  <!-- End First Hero-->
-  <!--Final Section, "Featured listings to go under the top car carousel, then move everything else down? Talk to Frank. " -->
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h2 class="title">
-          Featured Listings
-        </h2>
-      </div>
+  <!--Slick Carousel-->
+  <div class="single-item">
+    <div>
+      <div class="numbertext">1 / 3</div>
+      <img src="./img/sexycarshort.jpg" style="width:100%;">
+      <h3 class="text is-overlay is-family-sans-serif has-text-weight-bold">"Lorem ipsum dolor sit amet, consectetur adipisicing."</h3>
+    </div>
+    <div>
+      <div class="numbertext">2 / 3</div>
+      <img src="./img/sexycartwo.jpg" style="width:100%;">
+      <div class="text is-overlay is-family-sans-serif has-text-weight-bold">"Lorem ipsum dolor sit amet, consectetur adipisicing."</div>
+    </div>
+    <div>
+      <div class="numbertext">3 / 3</div>
+      <img src="./img/sexycarthree.jpg" style="width:100%;">
+      <div class="text is-overlay is-family-sans-serif has-text-weight-bold">"Lorem ipsum dolor sit amet, consectetur adipisicing."</div>
+    </div>
+  </div>
+
+
+  <!-- Featured Listings -->
+
+  <section class="hero" style="padding-bottom:20px">
+    <div class="container has-text-centered">
+      <h2 class="title">
+        Featured Listings
+      </h2>
     </div>
   </section>
 
@@ -131,22 +107,22 @@
     <div class="columns is-vcentered">
       <div class="column is-marginless is-paddingless">
         <figure class="image is-1by1 hoverchange">
-            <img src="./img/featuredone.jpg" alt="">
+          <img src="./img/featuredone.jpg" alt="">
         </figure>
       </div>
       <div class="column is-marginless is-paddingless">
         <figure class="image is-1by1 hoverchange">
-            <img src="./img/featuredtwo.jpg" alt="">
+          <img src="./img/featuredtwo.jpg" alt="">
         </figure>
       </div>
       <div class="column is-marginless is-paddingless">
         <figure class="image is-1by1 hoverchange">
-            <img src="./img/featuredthree.jpg" alt="">
+          <img src="./img/featuredthree.jpg" alt="">
         </figure>
       </div>
       <div class="column is-marginless is-paddingless">
         <figure class="image is-1by1 hoverchange">
-            <img src="./img/featuredfour.jpg" alt="">
+          <img src="./img/featuredfour.jpg" alt="">
         </figure>
       </div>
     </div>
@@ -272,37 +248,35 @@
       <div class="container">
         <p class="subtitle">
           <br>
-          My name is Frank and I love cars... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquam, perferendis iusto, alias at molestiae. Placeat nisi tempore ipsum, sunt non beatae quasi facere ab vitae, dolore nemo sapiente eligendi hic recusandae obcaecati odio incidunt molestias soluta! Quisquam voluptatibus ullam quos soluta odit cum possimus praesentium recusandae quaerat debitis, totam accusantium amet officiis libero, eveniet illo, iusto dolor itaque, architecto consectetur corporis dolores atque. Esse, voluptatem dolorem omnis commodi, maxime libero. Molestias fuga fugiat tempore vel animi itaque, ex voluptas sunt neque illum consequatur sequi, at? Pariatur, aut doloribus sed hic tempore repellendus facere dolores magni. Reiciendis ducimus architecto est.
+          My name is Frank and I love cars... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquam, perferendis iusto, alias at molestiae. Placeat nisi tempore ipsum, sunt non beatae quasi facere ab vitae, dolore nemo sapiente
+          eligendi hic recusandae obcaecati odio incidunt molestias soluta! Quisquam voluptatibus ullam quos soluta odit cum possimus praesentium recusandae quaerat debitis, totam accusantium amet officiis libero, eveniet illo, iusto dolor itaque,
+          architecto consectetur corporis dolores atque. Esse, voluptatem dolorem omnis commodi, maxime libero. Molestias fuga fugiat tempore vel animi itaque, ex voluptas sunt neque illum consequatur sequi, at? Pariatur, aut doloribus sed hic
+          tempore repellendus facere dolores magni. Reiciendis ducimus architecto est.
         </p>
       </div>
     </div>
     <div class="hero-foot" style="margin:20px">
       <nav class="level has-background-white" style="padding: 20px">
-     <div class="level-left">
-       <div class="level-item has-text-black">
-         <div>
-           <h1 class="title is-3 has-text-black has-text-centered">Can't Hurt To Ask</h1>
-         </div>
-       </div>
-     </div>
-     <div class="level-right">
-       <div class="level-item has-text-black">
-         <p class="subtitle has-text-black">Get in touch now!</p>
-         <a href="./contact.html" class="button is-primary" style="margin-left:20px">
-           Contact
-         </a>
-       </div>
-     </div>
-   </nav>
+        <div class="level-left">
+          <div class="level-item has-text-black">
+            <div>
+              <h1 class="title is-3 has-text-black has-text-centered">Can't Hurt To Ask</h1>
+            </div>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item has-text-black">
+            <p class="subtitle has-text-black">Get in touch now!</p>
+            <a href="./contact.html" class="button is-primary" style="margin-left:20px">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
   </section>
 
-  <!--Final Section, "Featured listings to go under the top car carousel, then move everything else down? Talk to Frank. " -->
-
-
-
-
-
+  <!-- Footer -->
   <footer class="footer has-background-dark">
     <div class="content has-text-centered">
       <p>
@@ -316,68 +290,10 @@
   </footer>
 
 
-
-
-
-
-
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', () => {
-
-      // Get all "navbar-burger" elements
-      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-      // Check if there are any navbar burgers
-      if ($navbarBurgers.length > 0) {
-
-        // Add a click event on each of them
-        $navbarBurgers.forEach(el => {
-          el.addEventListener('click', () => {
-
-            // Get the target from the "data-target" attribute
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-
-          });
-        });
-      }
-
-    });
-  </script>
-
-  <!-- Slick Carousel JS Settings -->
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- JQuery for Slick Carousel JS Settings -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="./slick/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.single-item').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-
-    //Slider class
-    $('.basic').slick({
-      fade: true,
-      cssEase: 'ease-in-out'
-    });
-  $('.withOptions').slick({
-     dots: true,
-     arrows: true,
-     autoplay: true,
-     autoplayspeed: 1000,
-     centerMode: true,
-  });
-});
-  </script>
 
   <script type="text/javascript" src="./myjs/index.js"></script>
   <script type="text/javascript" src="./lib/main.js"></script>
