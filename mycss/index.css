@@ -155,24 +155,3 @@ see media query */
   }
   }
   
-
-  /*
-@media only screen and (max-width: 800px) {
-
-  .ebay-frame{
-    margin-left: 0px;
-    width: 300px;
-    height: 250px;
-  }
-
-  .car-image-size {
-    padding: 0%;
-  }
-
-  .adapt-to-screen{
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-}
-
-*/
