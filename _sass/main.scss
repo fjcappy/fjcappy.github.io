@@ -23,6 +23,13 @@ $danger: $red-highlight;
     opacity: .5;
 }
 
+//Add Ebay Box 
+
+.box-ebay{
+    @extend .box;
+    border: #BF2C2C solid 21px;
+}
+
 //On Hover for Featured listings
 .hoverchange:hover{
     opacity: .5;

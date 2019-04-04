@@ -25,6 +25,7 @@
     adaptiveHeight: true,
     nextArrow: '<i class="fa fa-chevron-right nav-button-right"></i>',
     prevArrow: '<i class="fa fa-chevron-left nav-button-left"></i>',
+    infinite: true,
   });
 
   $('.slider-nav').slick({
@@ -33,6 +34,7 @@
     asNavFor: '.slider-for',
     dots: true,
     centerMode: true,
+    infinite: true,
     focusOnSelect: true
   });
 

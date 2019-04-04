@@ -30,7 +30,7 @@
   transform-origin: center;
   width: 0.625em; }
 
-.box:not(:last-child), .box-cool:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
+.box:not(:last-child), .box-cool:not(:last-child), .box-ebay:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
 .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 1.5rem; }
 
@@ -195,7 +195,7 @@
   fieldset[disabled] .pagination-ellipsis {
     cursor: not-allowed; }
 
-.box, .box-cool {
+.box, .box-cool, .box-ebay {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
@@ -203,14 +203,17 @@
   display: block;
   padding: 1.25rem; }
 
-a.box:hover, a.box-cool:hover, a.box:focus, a.box-cool:focus {
+a.box:hover, a.box-cool:hover, a.box-ebay:hover, a.box:focus, a.box-cool:focus, a.box-ebay:focus {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc; }
 
-a.box:active, a.box-cool:active {
+a.box:active, a.box-cool:active, a.box-ebay:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc; }
 
 .box-cool:hover {
   opacity: .5; }
+
+.box-ebay {
+  border: #BF2C2C solid 21px; }
 
 .hoverchange:hover {
   opacity: .5; }
@@ -1007,7 +1010,7 @@ $primary-invert: $pink-invert;
   transform-origin: center;
   width: 0.625em; }
 
-.box:not(:last-child), .box-cool:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
+.box:not(:last-child), .box-cool:not(:last-child), .box-ebay:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
 .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 1.5rem; }
 
@@ -2118,7 +2121,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .is-shadowless {
   box-shadow: none !important; }
 
-.box, .box-cool {
+.box, .box-cool, .box-ebay {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
@@ -2126,10 +2129,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: block;
   padding: 1.25rem; }
 
-a.box:hover, a.box-cool:hover, a.box:focus, a.box-cool:focus {
+a.box:hover, a.box-cool:hover, a.box-ebay:hover, a.box:focus, a.box-cool:focus, a.box-ebay:focus {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc; }
 
-a.box:active, a.box-cool:active {
+a.box:active, a.box-cool:active, a.box-ebay:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc; }
 
 .button {

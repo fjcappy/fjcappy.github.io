@@ -29,7 +29,7 @@ img {vertical-align: middle;}
 }
 
 /* Map Iframes height adjustment for Inventory's car pages */
-.map-frame {
+.ebay-frame {
   width: 400px;
   height: 300px;
   margin-left: -420px;
@@ -64,8 +64,17 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/*Control Slider Nav Size for Car pages */
-/*Might be some work to do here? Looks pretty good already tbh */
+/*Control Image Size On Car Pages For Desktop  */
+/*See Image Control media query for mobile*/
+.car-image-size{
+  padding:25%;
+}
+/* Slick car Slider margin adjustment for screen size
+see media query */
+.adapt-to-screen{
+  margin-top: -15%;
+  margin-bottom: -15%;
+}
 
 /* Cars Slideshow buttons */
 .nav-button-left {
@@ -106,7 +115,16 @@ img {vertical-align: middle;}
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {
-  .map-for-mobile {
+  .ebay-for-mobile {
     margin-left: 0px;
+  }
+
+  .car-image-size {
+    padding: 0%;
+  }
+
+  .adapt-to-screen{
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
 }
