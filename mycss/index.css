@@ -29,6 +29,7 @@ img {vertical-align: middle;}
 }
 
 /* Map Iframes height adjustment for Inventory's car pages */
+/* See Media Query for Mobile */
 .ebay-frame {
   width: 400px;
   height: 300px;
@@ -114,9 +115,54 @@ see media query */
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 800px) {
-  .ebay-for-mobile {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  /* Styles */
+  .ebay-frame{
     margin-left: 0px;
+    width: 300px;
+    height: 250px;
+  }
+
+  .car-image-size {
+    padding: 0%;
+  }
+
+  .adapt-to-screen{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  }
+  
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-width : 480px) and (max-width : 1050px) {
+  /* Styles */
+  .ebay-frame{
+    margin-left: -0px;
+    width: 300px;
+    height: 250px;
+  }
+
+  .car-image-size {
+    padding: 0%;
+  }
+
+  .adapt-to-screen{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  }
+  
+
+  /*
+@media only screen and (max-width: 800px) {
+
+  .ebay-frame{
+    margin-left: 0px;
+    width: 300px;
+    height: 250px;
   }
 
   .car-image-size {
@@ -128,3 +174,5 @@ see media query */
     margin-bottom: 0%;
   }
 }
+
+*/
