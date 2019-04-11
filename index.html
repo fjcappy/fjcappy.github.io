@@ -10,7 +10,7 @@
   <meta name="author" content="Alder French">
   <title>Treasured Transportation | Home</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="./mycss/index.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
@@ -147,78 +147,138 @@
           <div class="field">
             <label class="label has-text-white">Name</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input">
+              <input class="input" type="text" placeholder="Enter your name here">
             </div>
           </div>
 
-          <div class="field">
-            <label class="label has-text-white">Username</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-              <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-              </span>
+
+
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <field>
+                <label class="label has-text-white">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
             </div>
-            <p class="help is-success">This username is available</p>
+            </field>
+
+            <div class="field">
+              <label class="label has-text-white">Phone Number</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="123-123-1234">
+              </div>
+            </div>
           </div>
 
-          <div class="field">
-            <label class="label has-text-white">Email</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-              </span>
-            </div>
-            <p class="help is-danger">This email is invalid</p>
-          </div>
+          <h4 class="title is-3 has-text-white">
+            Car Specifications
+          </h4>
 
-          <div class="field">
-            <label class="label has-text-white">Subject</label>
-            <div class="control">
-              <div class="select">
-                <select>
-                  <option>Select dropdown</option>
-                  <option>With options</option>
-                </select>
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <label class="label has-text-white">Year</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Enter your vehicles year">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label has-text-white">Make</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Enter your vehicle's make">
+                </div>
               </div>
             </div>
           </div>
 
           <div class="field">
-            <label class="label has-text-white">Message</label>
+            <label class="label has-text-white">Model</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Textarea"></textarea>
+              <input class="input" type="text" placeholder="Enter your vehicle's model">
+            </div>
+          </div>
+
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <label class="label has-text-white">Mileage</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Enter your vehicle's mileage">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label has-text-white">Desired Price</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Enter the price you desire for your vehicle">
+                </div>
+              </div>
+
             </div>
           </div>
 
           <div class="field">
+            <label class="label has-text-white">What city and state is your vehicle located in?</label>
             <div class="control">
-              <label class="checkbox has-text-white">
-                <input type="checkbox">
-                I agree to the <a href="#">terms and conditions</a>
-              </label>
+              <input class="input" type="text" placeholder="Enter your vehicle's location">
             </div>
           </div>
 
-          <div class="field">
-            <div class="control">
-              <label class="radio has-text-white">
-                <input type="radio" name="question">
-                Yes
-              </label>
-              <label class="radio has-text-white">
-                <input type="radio" name="question">
-                No
-              </label>
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <label class="label has-text-white">Has your car been listed for sale anywhere else since you have owned it?</label>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Select dropdown</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field" style="padding-top:57px">
+                <div class="file is-success">
+                  <label class="file-label">
+                    <input class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                      <span class="file-icon">
+                        <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label">
+                        Upload Photos...
+                      </span>
+                    </span>
+
+                  </label>
+                  <label class="checkbox" style="padding-left:10px">
+                    <input type="checkbox">
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
+
+
+
+          <div class="field">
+            <label class="label has-text-white">Description</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Please give a brief description of your car's condition and what makes it special"></textarea>
+            </div>
+          </div>
+
 
           <div class="field is-grouped">
             <div class="control">
@@ -229,6 +289,8 @@
             </div>
           </div>
         </div>
+        <!-- END EMAIL FORM -->
+
       </div>
     </div>
   </section>
